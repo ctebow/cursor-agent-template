@@ -1,0 +1,53 @@
+# -----------------------------
+# Node.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+*.tgz
+package-lock.json  # optional: commit for lockfile; include if you want exact versions
+
+# -----------------------------
+# Cursor IDE
+# -----------------------------
+.cursor/.cache/
+.cursor/tmp/
+# Keep the actual context files (rules.md, workflows.md, etc.) committed
+# Only ignore internal temporary files
+
+.vscode/*.code-workspace
+.vscode/*.local.json
+# keep tasks.json and workspace settings if you want shared tasks
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# -----------------------------
+# Logs / Temp
+# -----------------------------
+logs/
+*.log
+*.log.*
+temp/
+tmp/
+
+# -----------------------------
+# Optional: build outputs
+# -----------------------------
+dist/
+build/
+out/
+
+# -----------------------------
+# Optional: environment files
+# -----------------------------
+.env
+.env.local
+.env.*.local
